@@ -3,7 +3,7 @@
 
 import logging
 
-from rope.contrib.codeassist import code_assist, sorted_proposals
+from .rope.contrib.codeassist import code_assist, sorted_proposals
 
 from pylsp import _utils, hookimpl, lsp
 
